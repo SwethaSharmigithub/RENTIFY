@@ -1,0 +1,98 @@
+/* SellerDashBoard.css */
+
+.seller-dashboard {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.property-form {
+  margin-top: 20px;
+}
+
+.property-form h2 {
+  margin-bottom: 10px;
+}
+
+.property-form form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.property-form input[type="text"],
+.property-form input[type="number"],
+.property-form textarea {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.property-form input[type="file"] {
+  margin: 10px 0;
+}
+
+.property-form img {
+  margin: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.property-form button {
+  background-color: #28a745;
+  margin-top: 10px;
+}
+
+.property-form button:hover {
+  background-color: #218838;
+}
+
+.properties-list {
+  margin-top: 20px;
+}
+
+.property-item {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 15px;
+  background-color: #f9f9f9;
+}
+
+.property-item h2 {
+  margin: 0 0 10px 0;
+}
+
+.property-item p {
+  margin: 5px 0;
+}
+
+.property-item button {
+  background-color: #dc3545;
+  margin: 5px;
+}
+
+.property-item button:hover {
+  background-color: #c82333;
+}
